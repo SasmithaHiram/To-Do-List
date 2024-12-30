@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="toDoList-header">
+            <h2>To Do List</h2>
+            <img src="Assets/Notebook.gif" height="50px">
+        </div>
+
+        <div class="toDoList-body">
+            <input type="text" id="toDoListText" class="toDoList-input" placeholder="Add Your Task">
+            <img src="Assets/Add.png" alt="+" id="addUpdateClick" onclick="CreateToDoItems()">
+        </div>
+        <h5 id="alert"></h5>
+        <ul id="listItems" class="listItems"></ul>
+    </div>
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
